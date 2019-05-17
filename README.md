@@ -34,9 +34,7 @@ npm start
 
 Click the button below to deploy an Azure Web App for Linux. This will create a new app service plan and web app with a dev deployment slot. You can then create build and release pipelines at dev.azure.com to continuously deploy the node application in this repo to the dev deployment slot.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmikepfeiffer%2Fnode-express-azure%2Fmaster%2Fazuredeploy.json" target="_blank">
-    <img src="http://azuredeploy.net/deploybutton.png"/>
-</a>
+[![Build Status](https://dev.azure.com/quadrantit/vineela/_apis/build/status/vineela4.node-express-azure?branchName=master)](https://dev.azure.com/quadrantit/vineela/_build/latest?definitionId=3&branchName=master)
 
 ## Deploy the App Continuously with Azure DevOps:
 Follow my step-by-step guide: [Build Your First CI/CD Pipeline using Azure DevOps](https://mikepfeiffer.io/azure-devops-pipeline.html)
